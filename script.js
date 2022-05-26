@@ -10,7 +10,7 @@ if (localStorage.getItem("favourites")==null) {
 // function for show heros full details in a new page
 function showDetails(idnumber) {
   localStorage.setItem("id", idnumber);
-  window.location = "./components/index2.html";
+  window.location = "index2.html";
 }
 
 
